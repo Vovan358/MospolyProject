@@ -1,0 +1,35 @@
+baseURL = 'https://example.org/'
+languageCode = 'ru-ru'
+title = 'Мой проект в Мосполитехе'
+theme="ananke"
+defaultContentLanguage = "ru"
+enableRobotsTXT = true
+
+[params]
+  description = "Это мой сайт на Hugo"
+  background_color_class = "bg-blue"
+  text_color = "text-white"
+  author = "Vovan358"
+  custom_css = ["css/custom.css"]
+
+[menu]
+
+  [[menu.main]]
+    name = "О проекте"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Участники"
+    url = "/members/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Журнал"
+    url = "/journal/"
+    weight = 4
+
+    [[menu.main]]
+    name = "Ресурсы"
+    url = "/resources/"
+    weight = 5
