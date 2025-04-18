@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = "https://vovan358.github.io/MospolyProject/"
 languageCode = 'ru-ru'
 title = 'Мой проект в Мосполитехе'
 theme="ananke"
