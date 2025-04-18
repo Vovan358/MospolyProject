@@ -11,22 +11,26 @@ enableRobotsTXT = true
   text_color = "text-white"
   author = "Vovan358"
   custom_css = ["css/custom.css"]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
 
   [[menu.main]]
     name = "О проекте"
-    url = "/about/"
+    url = "/project/"
     weight = 2
 
   [[menu.main]]
     name = "Участники"
-    url = "/members/"
+    url = "/#team"
     weight = 3
 
   [[menu.main]]
     name = "Журнал"
-    url = "/journal/"
+    url = "/#journal"
     weight = 4
 
     [[menu.main]]
