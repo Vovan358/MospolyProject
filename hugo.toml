@@ -1,9 +1,12 @@
-baseURL = 'https://example.org/'
+baseURL = "http://localhost:1313/"
 languageCode = 'ru-ru'
 title = 'Мой проект в Мосполитехе'
 theme="ananke"
 defaultContentLanguage = "ru"
 enableRobotsTXT = true
+publishDir = "public"
+enableGitInfo = true
+disableKinds = ["RSS", "sitemap", "robotsTXT"]
 
 [params]
   description = "Это мой сайт на Hugo"
